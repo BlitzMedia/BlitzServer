@@ -1,0 +1,53 @@
+/* Our stuff */
+
+header[role="banner"] {
+  padding: 1em;
+  background: #b0976d;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav button { margin: 0 }
+nav button + button { margin-left: 1em; }
+
+button.button-outline,
+button.button-outline:hover {
+  color: white;
+  border-color: white;
+}
+button.button-outline:hover {
+  color: #b0976d;
+  background-color: white;
+}
+
+
+main[role="main"] {
+  padding: 1em;
+}
+
+ul { list-style-type: none; }
+article { padding: .5em 1em 0; } 
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

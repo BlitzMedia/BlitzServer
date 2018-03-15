@@ -14,7 +14,8 @@ nav button { margin: 0 }
 nav button + button { margin-left: 1em; }
 
 button.button-outline,
-button.button-outline:hover {
+button.button-outline:hover
+button.button-outline:focus {
   color: white;
   border-color: white;
 }
@@ -29,7 +30,7 @@ main[role="main"] {
 }
 
 ul { list-style-type: none; }
-article { padding: .5em 1em 0; } 
+article { padding: .5em 1em 0; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
